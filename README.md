@@ -121,6 +121,7 @@ model = tf.keras.models.Sequential([
     - The Dropout layer randomly sets input units to 0 with a frequency of rate at each step during training time, which helps prevent overfitting.
   + [Convolution layers](https://keras.io/api/layers/convolution_layers/)
   + [Activation layers](https://keras.io/api/layers/activation_layers/)
+    + 'relu' - it return max(x,0) as default (elimate element if it less than 0)
 ### 2. FOR "CONFIGURE MODEL" AND "TRAN MODEL" SECTION
 * [Model training APIs](https://keras.io/api/models/model_training_apis)
 
